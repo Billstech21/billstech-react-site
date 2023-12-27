@@ -19,12 +19,12 @@ const Navbar = () => {
                 </button>
             </div>
             <nav md:classname="{ 'transform md:transform-none': !open, 'h-full': open }" className="h-0 md:h-auto flex flex-col flex-grow md:items-center pb-4 md:pb-0 md:flex md:justify-end md:flex-row origin-top duration-300 ">
-                <a className="px-4 py-2 mt-2 text-sm bg-transparent rounded-lg  md:mt-8 md:ml-4 hover:text-gray-900 focus:outline-none focus:shadow-outline">Careers</a>
                 <a className="px-4 py-2 mt-2 text-sm bg-transparent rounded-lg  md:mt-8 md:ml-4 hover:text-gray-900 focus:outline-none focus:shadow-outline">Home</a>
-                <a className="px-4 py-2 mt-2 text-sm bg-transparent rounded-lg  md:mt-8 md:ml-4 hover:text-gray-900 focus:outline-none focus:shadow-outline">Blog</a>
                 <a className="px-4 py-2 mt-2 text-sm bg-transparent rounded-lg  md:mt-8 md:ml-4 hover:text-gray-900 focus:outline-none focus:shadow-outline">About Us</a>
-                <a className="px-10 py-3 mt-2 text-sm text-center bg-white text-gray-800 rounded-full md:mt-8 md:ml-4">Login</a>
-                <a className="px-10 py-3 mt-2 text-sm text-center bg-yellow-500 text-white rounded-full md:mt-8 md:ml-4">Sign Up</a>
+                <a className="px-4 py-2 mt-2 text-sm bg-transparent rounded-lg  md:mt-8 md:ml-4 hover:text-gray-900 focus:outline-none focus:shadow-outline">Services</a>
+                <a className="px-4 py-2 mt-2 text-sm bg-transparent rounded-lg  md:mt-8 md:ml-4 hover:text-gray-900 focus:outline-none focus:shadow-outline">Reviews</a>
+                <a className="px-10 py-3 mt-2 text-sm text-center bg-white text-gray-800 rounded-full md:mt-8 md:ml-4">Free Quote</a>
+                <a className="px-10 py-3 mt-2 text-sm text-center bg-yellow-500 text-white rounded-full md:mt-8 md:ml-4">Contact Us</a>
             </nav>
         </div>
     </div>
