@@ -1,7 +1,13 @@
 import React from 'react'
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import { airbnb, amazon, calendar, congrat, uxclass, girl } from '../assets/images'
 
 const Banner = () => {
+    useEffect(() => {
+        AOS.init();
+      }, [])
   return (
     <div className="bg-cream">
     <div className="max-w-screen-xl px-8 mx-auto flex flex-col lg:flex-row items-start">
