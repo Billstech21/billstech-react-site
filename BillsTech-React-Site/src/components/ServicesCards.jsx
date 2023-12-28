@@ -4,7 +4,7 @@ import { google, netflix, airbnb, amazon, facebook, grab} from '../assets/images
 const ServicesCards = () => {
   return (
     <>
-    <div className="container px-4 lg:px-8 mx-auto max-w-screen-xl text-gray-700 overflow-x-hidden">
+    <div className="container px-4 lg:px-8 mx-auto max-w-screen-xl text-gray-700">
     {/* <!-- trusted by --> */}
 		<div className="max-w-4xl mx-auto">
 			<h1 className="text-center mb-3 text-gray-400 font-medium">Trusted by 5,000+ Companies Worldwide</h1>
