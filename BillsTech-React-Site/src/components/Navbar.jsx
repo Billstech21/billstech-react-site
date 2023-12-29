@@ -1,15 +1,13 @@
 import React from 'react'
+import { BillstechLogo } from '../assets/icons'
 
 const Navbar = () => {
   return (
-	<div className="w-full text-gray-700 bg-cream">
+	<div className="w-full bg-black">
         <div className="flex flex-col max-w-screen-xl px-8 mx-auto md:items-center md:justify-between md:flex-row">
-            <div className="flex flex-row items-center justify-between py-6">
+            <div className="flex flex-row items-center justify-between pb-6">
                 <div className="relative md:mt-8">
-                    <a className="text-lg relative z-50 font-bold tracking-widest text-gray-900 rounded-lg focus:outline-none focus:shadow-outline">Skilline</a>
-                    <svg className="h-11 z-40 absolute -top-2 -left-3" viewBox="0 0 79 79" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M35.2574 2.24264C37.6005 -0.100501 41.3995 -0.100505 43.7426 2.24264L76.7574 35.2574C79.1005 37.6005 79.1005 41.3995 76.7574 43.7426L43.7426 76.7574C41.3995 79.1005 37.6005 79.1005 35.2574 76.7574L2.24264 43.7426C-0.100501 41.3995 -0.100505 37.6005 2.24264 35.2574L35.2574 2.24264Z" fill="#65DAFF"/>
-                    </svg>
+                    <img src={BillstechLogo} alt="" width={250} height={250}/>
                 </div>
                 <button className="rounded-lg md:hidden focus:outline-none focus:shadow-outline">
                     <svg fill="currentColor" viewBox="0 0 20 20" className="w-6 h-6">
@@ -18,13 +16,13 @@ const Navbar = () => {
                     </svg>
                 </button>
             </div>
-            <nav md:classname="{ 'transform md:transform-none': !open, 'h-full': open }" className="h-0 md:h-auto flex flex-col flex-grow md:items-center pb-4 md:pb-0 md:flex md:justify-end md:flex-row origin-top duration-300 ">
-                <a className="px-4 py-2 mt-2 text-sm bg-transparent rounded-lg  md:mt-8 md:ml-4 hover:text-gray-900 focus:outline-none focus:shadow-outline">Home</a>
-                <a className="px-4 py-2 mt-2 text-sm bg-transparent rounded-lg  md:mt-8 md:ml-4 hover:text-gray-900 focus:outline-none focus:shadow-outline">About Us</a>
-                <a className="px-4 py-2 mt-2 text-sm bg-transparent rounded-lg  md:mt-8 md:ml-4 hover:text-gray-900 focus:outline-none focus:shadow-outline">Services</a>
-                <a className="px-4 py-2 mt-2 text-sm bg-transparent rounded-lg  md:mt-8 md:ml-4 hover:text-gray-900 focus:outline-none focus:shadow-outline">Reviews</a>
+            <nav md:classname="{ 'transform md:transform-none': !open, 'h-full': open }" className="h-0 md:h-auto flex flex-col flex-grow md:items-center pb-4 md:pb-0 md:flex md:justify-end md:flex-row origin-top duration-300 align-middle ">
+                <a className="px-4 py-2 mt-2 text-sm bg-transparent rounded-lg  md:mt-8 md:ml-4 text-white hover:text-[#0fe0d0] focus:outline-none focus:shadow-outline">Home</a>
+                <a className="px-4 py-2 mt-2 text-sm bg-transparent rounded-lg  md:mt-8 md:ml-4 text-white  hover:text-[#0fe0d0] focus:outline-none focus:shadow-outline">About Us</a>
+                <a className="px-4 py-2 mt-2 text-sm bg-transparent rounded-lg  md:mt-8 md:ml-4 text-white hover:text-[#0fe0d0] focus:outline-none focus:shadow-outline">Services</a>
+                <a className="px-4 py-2 mt-2 text-sm bg-transparent rounded-lg  md:mt-8 md:ml-4 text-white hover:text-[#0fe0d0] focus:outline-none focus:shadow-outline">Reviews</a>
                 <a className="px-10 py-3 mt-2 text-sm text-center bg-white text-gray-800 rounded-full md:mt-8 md:ml-4">Free Quote</a>
-                <a className="px-10 py-3 mt-2 text-sm text-center bg-yellow-500 text-white rounded-full md:mt-8 md:ml-4">Contact Us</a>
+                <a className="px-10 py-3 mt-2 text-sm text-center bg-gradient text-black rounded-full md:mt-8 md:ml-4">Contact Us</a>
             </nav>
         </div>
     </div>

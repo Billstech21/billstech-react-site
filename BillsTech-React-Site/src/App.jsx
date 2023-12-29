@@ -15,7 +15,6 @@ function App() {
     <Banner />
     <ServicesCards />
     <AboutUs />
-    <Testimonials />
     <Footer />
     </>
   )

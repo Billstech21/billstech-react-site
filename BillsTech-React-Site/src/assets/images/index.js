@@ -23,6 +23,7 @@ import teacherexplaining from './teacher-explaining.png'
 import testimonials from './testimonials.png'
 import truefalse from './true-false.png'
 import vcall from './vcall.png'
+import bannerImage from './banner-image.png'
 
 
 
@@ -51,6 +52,7 @@ export {
     teacherexplaining,
     testimonials,
     truefalse,
-    vcall
+    vcall,
+    bannerImage
 
 }

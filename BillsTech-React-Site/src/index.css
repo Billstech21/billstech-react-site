@@ -5,8 +5,26 @@
 @tailwind utilities;
 
 /*primary color*/
-.bg-cream {
-    background-color: #FFF2E1;
+.bg-black {
+    background-color: #1f1f1f;
+  }
+.bg-blue {
+    background-color: #0aa9ca;
+  }
+.bg-green {
+    background-color: #0fe0d0;
+  }
+.bg-gradient {
+  background: linear-gradient(90deg, rgba(15,224,208,1) 0%, rgba(10,169,202,1) 100%);
+  }
+.text-black {
+    color: #1f1f1f;
+  }
+.text-blue {
+    color: #0aa9ca;
+  }
+.text-green {
+    color: #0fe0d0;
   }
   
   /*font*/
@@ -14,12 +32,7 @@
     font-family: 'Poppins', sans-serif;
   }
   
-  .bg-yellow-500 {
-    background-color: #F48C06;
-  }
-  .text-yellow-500 {
-    color: #F48C06;
-  }
+  
   .floating { 
     animation-name: floating; 
     animation-duration: 3s; 
