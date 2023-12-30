@@ -6,6 +6,7 @@ import ServicesCards from './components/ServicesCards'
 import AboutUs from './components/AboutUs'
 import Testimonials from './components/Testimonials'
 import Footer from './components/Footer'
+import ContactUs from './components/ContactUs'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
     <Banner />
     <ServicesCards />
     <AboutUs />
+    <ContactUs />
     <Footer />
     </>
   )

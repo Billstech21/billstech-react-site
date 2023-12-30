@@ -24,6 +24,9 @@ import testimonials from './testimonials.png'
 import truefalse from './true-false.png'
 import vcall from './vcall.png'
 import bannerImage from './banner-image.png'
+import technologies from './technologies.png'
+import BannerFloatImg1 from './banner-float-img-1.png'
+import BannerFloatImg2 from './banner-float-img-2.png'
 
 
 
@@ -53,6 +56,9 @@ export {
     testimonials,
     truefalse,
     vcall,
-    bannerImage
+    bannerImage,
+    technologies,
+    BannerFloatImg1,
+    BannerFloatImg2
 
 }

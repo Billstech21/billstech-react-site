@@ -4,7 +4,7 @@ import { BillstechLogo } from '../assets/icons'
 const Footer = () => {
   return (
     <>
-    <footer className="mt-32 bg-[#252641]">
+    <footer className="mt-10 bg-black">
 		<div className="max-w-lg mx-auto">
 			<div className="flex py-12 justify-center text-white items-center px-20 sm:px-36">
 				<div className="relative">
@@ -24,9 +24,9 @@ const Footer = () => {
 				<a href="" className="border-l border-gray-400 pl-3">Terms & Conditions</a>
 			</div>
 			<div className="text-center text-white">
-				<p className="my-3 text-gray-400 text-sm">&copy; 2024 BillsTech Technologies Inc. </p>
+				<p className="my-3 text-gray-400 text-sm">&copy; 2024 billstech.com. All rights reserved.</p>
 				<div className="py-3 tracking-wide">
-					<p>All Rights Reserved.</p>
+					<p>BillsTech Technologies Inc.</p>
 				</div>
 			</div>
 		</div>

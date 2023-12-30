@@ -1,5 +1,5 @@
 import React from 'react'
-import { teacherexplaining } from '../assets/images'
+import { teacherexplaining, technologies } from '../assets/images'
 
 const AboutUs = () => {
   return (
@@ -32,7 +32,7 @@ const AboutUs = () => {
 			</div>
 		</div>
         {/* Second Section */}
-		<div className="sm:flex items-center sm:space-x-8 mt-36">
+		<div className="sm:flex  items-center sm:space-x-8 mt-36">
 		   <div data-aos="fade-right" className="sm:w-1/2 relative mt-10 sm:mt-0 md:mr-10">
 				<div className="bg-black floating w-24 h-24 absolute rounded-lg z-0 -top-3 -left-3"></div>
 				<img className="rounded-xl z-40 relative" src={teacherexplaining} alt=""/>
@@ -88,16 +88,11 @@ const AboutUs = () => {
 				<a href="" className="underline hover:text-[#1f1f1f]">Get In Touch With Us!</a>
 			</div>
 		</div>
-		<div className="mt-28">
-			<div data-aos="flip-down" className="text-center max-w-screen-md mx-auto">
-				<h1 className="text-3xl font-bold mb-4">Why <span className="text-blue"> BillsTech Stands Apart?</span></h1>
-				<p className="text-gray-500">Our Commitment to Excellence: What sets us apart is our commitment to not just meeting, but exceeding client expectations. Our team is constantly evolving, staying ahead of the latest digital trends and technologies. We believe in transparent communication, collaborative partnerships, and delivering results that make a real difference to your business.</p>
-			</div>
-		</div>
-		<div className="mt-28">
-			<div data-aos="flip-down" className="text-center max-w-screen-md mx-auto">
-				<h1 className="text-3xl font-bold mb-4">Partner with Us</h1>
-				<p className="text-gray-500">At Billstech, we are more than a digital marketing agency; we are your partners in growth and success. Contact us to discover how our tailored solutions can elevate your digital presence and drive your business forward.</p>
+		<div className="sm:flex sm:space-x-8 mt-36">
+			<div data-aos="flip-down" className="flex flex-col text-center items-center max-w-screen-xl mx-auto">
+				<h1 className="text-black text-3xl font-bold mb-4">Our Technical  <span className="text-blue"> Expertise</span></h1>
+				<p className="text-gray-500 md:px-20">Our proficiency extends across a wide array of technologies. From modern frameworks to established platforms, we are capable of catering to all our specific needs. (in Design) React Native, Swift, WordPress, Adobe XD, Figma, Photoshop, IOS, PHP, Angular, Magento, Illustrator, Android, Flutter, Mongo DB , LARAVEL, UNITY, MYSQL .NET, AWS, FLUTTER, NODE.JS, RUBY, REACT</p>
+              <img src={technologies} alt="loading...."  />
 			</div>
 		</div>
 	</div>	

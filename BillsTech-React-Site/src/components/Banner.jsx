@@ -2,7 +2,7 @@ import React from 'react'
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { calendar, congrat, uxclass, girl, bannerImage } from '../assets/images'
+import { calendar, congrat, uxclass, girl, bannerImage, BannerFloatImg1, BannerFloatImg2 } from '../assets/images'
 
 const Banner = () => {
     useEffect(() => {
@@ -10,9 +10,9 @@ const Banner = () => {
       }, [])
   return (
     <div className="bg-black">
-    <div className="max-w-screen-xl px-8 mx-auto flex flex-col lg:flex-row items-start">
+    <div className="max-w-screen-xl md:h-[700px] px-8 mx-auto flex flex-col lg:flex-row items-center">
         {/* <!--Left Col--> */}
-        <div className="flex flex-col w-full lg:w-6/12 justify-center lg:pt-24 items-start text-center lg:text-left mb-5 md:mb-0">
+        <div className="flex flex-col w-full lg:w-6/12 justify-center items-start text-center lg:text-left mb-5">
             <h1 data-aos="fade-right" data-aos-once="true" className="my-4 text-5xl font-bold leading-tight text-blue">
                 <span className="text-white">Welcome to </span> BillsTech
             </h1>
@@ -34,7 +34,7 @@ const Banner = () => {
         </div>
         {/* <!--Right Col--> */}
         <div className="w-full lg:pt-16 lg:w-6/12 lg:-mt-10 relative" id="girl">
-            <img data-aos="fade-up" data-aos-once="true" className="w-8/12 mx-auto 2xl:-mb-0" src={bannerImage} />
+            <img data-aos="fade-up" data-aos-once="true" className="w-8/12 md:w-[85%] mx-auto 2xl:-mb-0" src={bannerImage} />
             {/* <!-- calendar --> */}   
             <div data-aos="fade-up" data-aos-delay="300" data-aos-once="true" className="absolute top-20 -left-6 sm:top-32 sm:left-10 md:top-40 md:left-16 lg:-left-0 lg:top-52 floating-4">
                 <img className="bg-white bg-opacity-80 rounded-lg h-12 sm:h-16" src={calendar}/>
@@ -45,11 +45,11 @@ const Banner = () => {
             </div>
             {/* <!-- ux className --> */}
             <div data-aos="fade-up" data-aos-delay="500" data-aos-once="true" className="absolute bottom-14 -left-4 sm:left-2 sm:bottom-20 lg:bottom-24 lg:-left-4 floating">
-                <img className="bg-white bg-opacity-80 rounded-lg h-20 sm:h-28" src={uxclass} alt=""/>
+                <img className="bg-white bg-opacity-80 rounded-lg h-20 sm:h-28" src={BannerFloatImg2} alt=""/>
             </div>
             {/* <!-- congrats --> */}
             <div data-aos="fade-up" data-aos-delay="600" data-aos-once="true" className="absolute bottom-20 md:bottom-48 lg:bottom-52 -right-6 lg:right-8 floating-4">
-                <img className="bg-white bg-opacity-80 rounded-lg h-12 sm:h-16" src={congrat} alt=""/>
+                <img className="bg-white bg-opacity-80 rounded-lg h-12 sm:h-16" src={BannerFloatImg1} alt=""/>
             </div>
         </div>
     </div>
