@@ -32,8 +32,8 @@ const AboutUs = () => {
 			</div>
 		</div>
         {/* Second Section */}
-		<div className="sm:flex  items-center sm:space-x-8 mt-36">
-		   <div data-aos="fade-right" className="sm:w-1/2 relative mt-10 sm:mt-0 md:mr-10">
+		<div className="sm:flex flex flex-col md:flex-row items-center sm:space-x-8 mt-36">
+		   <div data-aos="fade-right" className="sm:w-1/2 flex-1 order-2 md:order-1 relative mt-10 sm:mt-0 md:mr-10">
 				<div className="bg-black floating w-24 h-24 absolute rounded-lg z-0 -top-3 -left-3"></div>
 				<img className="rounded-xl z-40 relative" src={teacherexplaining} alt=""/>
 				<button className="bg-white w-14 h-14 rounded-full flex items-center justify-center absolute top-1/2 left-1/2 transform-translate-x-1/2 -translate-y-1/2 focus:outline-none transform transition hover:scale-110 duration-300 ease-in-out z-50">
@@ -43,7 +43,7 @@ const AboutUs = () => {
 				</button>
 				<div className="bg-green w-40 h-40 floating absolute rounded-lg z-10 -bottom-3 -right-3"></div>
 			</div>
-			<div data-aos="fade-right" className="sm:w-1/2 relative">
+			<div data-aos="fade-right" className="sm:w-1/2 flex-1 order-1 md:order-2 relative">
 				<div className="bg-blue rounded-full absolute w-12 h-12 z-0 -left-4 -top-3 animate-pulse"></div>
 				<h1 className="font-semibold text-2xl relative z-50 text-black lg:pr-10">Advanced SEO & Social Media Marketing: <span className="text-blue">Amplifying Your Online Presence</span></h1>
 				<p className="py-5 lg:pr-20"><strong>Why Choose Us:</strong> In the realm of SEO and social media marketing, we excel at crafting strategies that resonate with your target audience. Our SEO experts employ cutting-edge techniques to boost your search engine rankings, while our social media gurus craft campaigns that effectively engage and expand your audience. We understand the importance of data-driven decisions and utilize advanced analytics to continually refine our strategies.</p>
@@ -70,8 +70,8 @@ const AboutUs = () => {
 			</div>
 		</div>
 		{/* Fourth Section */}
-		<div className="sm:flex items-center sm:space-x-8 mt-36">
-		   <div data-aos="fade-right" className="sm:w-1/2 relative mt-10 sm:mt-0 md:mr-10">
+		<div className="sm:flex flex flex-col md:flex-row items-center sm:space-x-8 mt-36">
+		   <div data-aos="fade-right" className="sm:w-1/2 flex-1 order-2 md:order-1 relative mt-10 sm:mt-0 md:mr-10">
 				<div className="bg-black floating w-24 h-24 absolute rounded-lg z-0 -top-3 -left-3"></div>
 				<img className="rounded-xl z-40 relative" src={teacherexplaining} alt=""/>
 				<button className="bg-white w-14 h-14 rounded-full flex items-center justify-center absolute top-1/2 left-1/2 transform-translate-x-1/2 -translate-y-1/2 focus:outline-none transform transition hover:scale-110 duration-300 ease-in-out z-50">
@@ -81,7 +81,7 @@ const AboutUs = () => {
 				</button>
 				<div className="bg-green w-40 h-40 floating absolute rounded-lg z-10 -bottom-3 -right-3"></div>
 			</div>
-			<div data-aos="fade-right" className="sm:w-1/2 relative">
+			<div data-aos="fade-right" className="sm:w-1/2 flex-1 order-1 md:order-2 relative">
 				<div className="bg-blue rounded-full absolute w-12 h-12 z-0 -left-4 -top-3 animate-pulse"></div>
 				<h1 className="font-semibold text-2xl relative z-50 text-black lg:pr-10">Comprehensive Digital Marketing Services: <span className="text-blue">Your One-Stop Solution</span></h1>
 				<p className="py-5 lg:pr-20"><strong>Expanding Our Services:</strong> Beyond our core offerings, we provide a suite of additional services including PPC Advertising, Email Marketing, and Content Marketing. Each service is tailored to meet the unique needs of your business, ensuring a holistic approach to digital marketing. Our integrated strategies are designed to not only attract but also retain customers, fostering long-term growth and brand loyalty.</p>
