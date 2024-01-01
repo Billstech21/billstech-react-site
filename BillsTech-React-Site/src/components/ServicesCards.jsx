@@ -4,7 +4,7 @@ import { google, netflix, airbnb, amazon, facebook, grab} from '../assets/images
 const ServicesCards = () => {
   return (
     <>
-    <div className="container px-4 lg:px-8 mx-auto max-w-screen-xl text-gray-700">
+    <div id="services" className="container px-4 lg:px-8 mx-auto max-w-screen-xl text-gray-700">
     {/* <!-- All-In-One Cloud Software. --> */}
 		<div data-aos="flip-up" className="max-w-xl mx-auto text-center mt-24">
 			<h1 className="font-bold text-black my-3 text-2xl">Defining <span className="text-blue">Digital Marketing</span> Excellence

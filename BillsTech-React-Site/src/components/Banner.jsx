@@ -20,7 +20,7 @@ const Banner = () => {
 </p>
             <div data-aos="fade-up" data-aos-once="true" data-aos-delay="700" className="w-full md:flex items-center justify-center lg:justify-start md:space-x-5">
                 <button className="lg:mx-0 bg-gradient text-black text-xl font-bold rounded-full py-4 px-9 focus:outline-none transform transition hover:scale-110 duration-300 ease-in-out">
-                    Get In Touch 
+                   <a href="#contact">Get In Touch</a>  
                 </button>
                 <div className="flex items-center justify-center space-x-3 mt-5 md:mt-0 focus:outline-none transform transition hover:scale-110 duration-300 ease-in-out">
                     <button className="bg-white w-14 h-14 rounded-full flex items-center justify-center">

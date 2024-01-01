@@ -2,6 +2,7 @@ import React from 'react'
 import { BillstechLogo } from '../assets/icons'
 
 const Footer = () => {
+
   return (
     <>
     <footer className="mt-10 bg-black">
@@ -21,14 +22,14 @@ const Footer = () => {
 				</div>
 			</div>
 			<div className="flex items-center text-gray-400 text-sm justify-center">
-				<a href="" className="pr-3">Careers</a>
-				<a href="" className="border-l border-gray-400 px-3">Privacy</a>
-				<a href="" className="border-l border-gray-400 pl-3">Terms & Conditions</a>
+				<button onClick={() => window.location = 'mailto:developer.evolvingdigital@gmail.com'} className="pr-3"> support@billstech.net </button>
+				<button onClick={() => window.location = 'tel:+923412194216'} className="border-l border-gray-400 px-3">+923412194216</button>
+				<button onClick={() => window.location = 'tel:+923472944349'} className="border-l border-gray-400 pl-3">+923472944349</button>
 			</div>
 			<div className="text-center text-white">
-				<p className="my-3 text-gray-400 text-sm">&copy; 2024 billstech.com. All rights reserved.</p>
+				<p className="my-3 text-gray-400 text-sm">&copy; 2024 billstech.net. All rights reserved.</p>
 				<div className="py-3 tracking-wide">
-					<p>BillsTech Technologies Inc.</p>
+					<p>BillsTech, Inc.</p>
 				</div>
 			</div>
 		</div>

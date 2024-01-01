@@ -2,7 +2,7 @@ import React from 'react'
 
 const ContactUs = () => {
   return (
-    <div className="container px-4 py-28 lg:px-8 mx-auto max-w-screen-xl">
+    <div id="contact" className="container px-4 py-28 lg:px-8 mx-auto max-w-screen-xl">
         <div className="grid grid-col-1 md:grid-cols-2 gap-4 place-items-center">
         <div className="p-5 md:p-10 rounded-xl">
 			<div data-aos="flip-down" className="text-left max-w-screen-md mx-auto">

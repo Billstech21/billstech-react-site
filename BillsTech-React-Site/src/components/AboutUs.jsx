@@ -4,7 +4,7 @@ import { teacherexplaining, technologies } from '../assets/images'
 const AboutUs = () => {
   return (
     <>
-	<div className="container px-4 lg:px-8 mx-auto max-w-screen-xl text-gray-700 ">
+	<div id="about" className="container px-4 lg:px-8 mx-auto max-w-screen-xl text-gray-700 ">
 		<div className="mt-28">
 			<div data-aos="flip-down" className="text-center max-w-screen-md mx-auto">
 				<h1 className="text-3xl font-bold mb-4">What is<span className="text-blue"> BillsTech?</span></h1>
@@ -88,7 +88,7 @@ const AboutUs = () => {
 				<a href="" className="underline hover:text-[#1f1f1f]">Get In Touch With Us!</a>
 			</div>
 		</div>
-		<div className="sm:flex sm:space-x-8 mt-36">
+		<div id="expertise" className="sm:flex sm:space-x-8 mt-36">
 			<div data-aos="flip-down" className="flex flex-col text-center items-center max-w-screen-xl mx-auto">
 				<h1 className="text-black text-3xl font-bold mb-4">Our Technical  <span className="text-blue"> Expertise</span></h1>
 				<p className="text-gray-500 md:px-20">Our proficiency extends across a wide array of technologies. From modern frameworks to established platforms, we are capable of catering to all our specific needs. (in Design) React Native, Swift, WordPress, Adobe XD, Figma, Photoshop, IOS, PHP, Angular, Magento, Illustrator, Android, Flutter, Mongo DB , LARAVEL, UNITY, MYSQL .NET, AWS, FLUTTER, NODE.JS, RUBY, REACT</p>
