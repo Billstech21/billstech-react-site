@@ -14,8 +14,10 @@ const Footer = () => {
 			<div className="text-center pb-16 pt-5">
 				<label className="text-gray-300 font-semibold">Subscribe to get our Newsletter</label>
 				<div className="px-5 sm:px-0 flex flex-col sm:flex-row sm:space-x-3 space-y-3 sm:space-y-0 justify-center mt-3">
-					<input type="email" placeholder="Your Email" className="rounded-full py-2 pl-5 bg-transparent border border-gray-400"/>
+					<form action="https://formspree.io/f/mnqeqdjn" method="POST">
+					<input type="email" name="email" placeholder="Your Email" className="rounded-full py-2 pl-5 bg-transparent border border-gray-400"/>
 					<button type="submit" className="text-black w-40 sm:w-auto mx-auto sm:mx-0 font-semibold px-5 py-2 rounded-full bg-gradient">Subscribe</button>
+					</form>
 				</div>
 			</div>
 			<div className="flex items-center text-gray-400 text-sm justify-center">
