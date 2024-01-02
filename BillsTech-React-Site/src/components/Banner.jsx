@@ -2,7 +2,7 @@ import React from 'react'
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { calendar, congrat, uxclass, girl, bannerImage, BannerFloatImg1, BannerFloatImg2 } from '../assets/images'
+import { bannerImage, BannerFloatImg1, BannerFloatImg2 } from '../assets/images'
 
 const Banner = () => {
     useEffect(() => {

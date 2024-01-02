@@ -1,5 +1,4 @@
 import React from 'react'
-import { google, netflix, airbnb, amazon, facebook, grab} from '../assets/images'
 
 const ServicesCards = () => {
   return (

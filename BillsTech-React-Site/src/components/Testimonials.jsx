@@ -1,5 +1,4 @@
 import React from 'react'
-import { testimonials } from '../assets/images'
 
 const Testimonials = () => {
   return (
@@ -25,7 +24,7 @@ const Testimonials = () => {
 				</button>
 			</div>
 			<div data-aos="zoom-in-left" className="md:w-7/12">
-				<img className="md:w-10/12 mx-auto" src={testimonials}/>
+				<img className="md:w-10/12 mx-auto"/>
 			</div>
 		</div>
     </div> 

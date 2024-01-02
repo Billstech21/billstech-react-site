@@ -29,7 +29,7 @@ const Footer = () => {
 			<div className="text-center text-white">
 				<p className="my-3 text-gray-400 text-sm">&copy; 2024 billstech.net. All rights reserved.</p>
 				<div className="py-3 tracking-wide">
-					<p>BillsTech, Inc.</p>
+					<p>BILLSTECH</p>
 				</div>
 			</div>
 		</div>
