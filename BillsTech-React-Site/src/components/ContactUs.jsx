@@ -2,11 +2,11 @@ import React from 'react'
 
 const ContactUs = () => {
   return (
-    <div id="contact" className="container px-4 py-28 lg:px-8 mx-auto max-w-screen-xl">
-        <div className="grid grid-col-1 md:grid-cols-2 gap-4 place-items-center">
+    <div id="contact" className="bg-gradient px-4 py-28 mt-20 lg:px-8">
+        <div className="max-w-screen-xl grid grid-col-1 mx-auto md:grid-cols-2 gap-4 place-items-center ">
         <div className="p-5 md:p-10 rounded-xl">
 			<div data-aos="flip-down" className="text-left max-w-screen-md mx-auto">
-				<h1 className="text-black text-3xl font-bold mb-4">Why <span className="text-blue"> BillsTech</span> Stands Apart?</h1>
+				<h1 className="text-black text-3xl font-bold mb-4">Why <span className="text-black"> BillsTech</span> Stands Apart?</h1>
 				<p className="text-gray-500">Our Commitment to Excellence: What sets us apart is our commitment to not just meeting, but exceeding client expectations. Our team is constantly evolving, staying ahead of the latest digital trends and technologies. We believe in transparent communication, collaborative partnerships, and delivering results that make a real difference to your business.</p>
 			</div>
             <div data-aos="flip-down" className="text-left max-w-screen-md mx-auto mt-10">
