@@ -23,6 +23,7 @@ import DigitalMarketingImg from './digital-marketing-img.jpg'
 import AppDevelopmentImg from './app-development-img.jpg'
 import WebDesign from './web-design.jpg'
 import SEOImg from './seo-img.jpg'
+import InnovationIcon from './Innovation-icon.svg'
 
 
 
@@ -51,6 +52,7 @@ export {
     DigitalMarketingImg,
     AppDevelopmentImg,
     WebDesign,
-    SEOImg
+    SEOImg,
+    InnovationIcon
 
 }

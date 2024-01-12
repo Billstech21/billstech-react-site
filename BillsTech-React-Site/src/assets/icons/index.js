@@ -5,5 +5,5 @@ import MotionBlur2 from './motion-blur-2.svg'
 export {
     BillstechLogo,
     BillstechFavicon,
-    MotionBlur2
+    MotionBlur2,
 }
